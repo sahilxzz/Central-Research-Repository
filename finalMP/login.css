@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:url(ayandeep.jpg) no-repeat center center fixed;
+}
+
+.container{
+    backdrop-filter: blur(.5px);
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    font-weight:bolder;
+    font-size: larger;
+
+}
+input{
+    margin: 20px;
+}
+button{
+    margin: 5px;
+    background-color: blue;
+    height: 30px;
+    width: 60px;
+
+}

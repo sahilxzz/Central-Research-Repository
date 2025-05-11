@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(ayandeep.jpg) no-repeat center center fixed;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;   
+}
+button{
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-weight:bold;
+}
+.user{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+.pass{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+.cpass{
+    display: flex;
+    margin: 10px;
+}
+.email{
+    display: flex;
+    margin: 10px;
+}
